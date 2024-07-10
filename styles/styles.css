@@ -108,22 +108,56 @@ header{
     margin: 0 auto;
     margin-top: 120px;
     border: 2px solid red;
-    /* padding: 80px 97px; */
+    padding: 80px 97px;
 
  }
 
- .web-dev-reason1{
+.web-dev-header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: start;
+   margin-bottom: 48px;
+   margin: 0 auto;
+ }
+ .web-dev-header h3{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 32px;
+   font-weight: 800;
+
+ }
+
+.web-dev-container h4{
+   color: rgba(13, 19, 33, 0.7);
+   font-family: Azeret Mono;
+   font-size: 24px;
+   font-weight: 700;
+
+ }
+.web-dev-container p{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 400;
+ }
+
+.buton{
+   padding: 12px 20px;
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 600;
+   
+}
+
+
+.web-dev-reason{
     padding: 48px;
     display: flex;
+    justify-content: space-between;
  }
- .web-dev-reason2{
-    padding: 48px;
-    display: flex;
- }
- .web-dev-reason3{
-    padding: 48px;
-    display: flex;
- }
+
 
  /* Inspiration styles */
  .inspiration{
