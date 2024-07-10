@@ -7,7 +7,8 @@ header{
     margin: 0 auto;
     border: 2px solid red;
     background-image: url(../assets/Hero-bg.png);
-    /* padding: 0 auto; */
+    padding: 30px 220px;
+    
 
     
 }
@@ -21,7 +22,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 .header-content{
@@ -29,7 +30,7 @@ header{
     flex-direction: column;
     
     align-items: center;
-    justify-content:space-between;
+    /* justify-content:space-between; */
 
 }
 
@@ -59,13 +60,10 @@ header{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    padding: 21px 24px;
+    padding: 20px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     
-
-
-
 }
 
 .image-section-container{
@@ -102,6 +100,9 @@ g
     margin-top: 120px;
     border: 2px solid red;
     padding: 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
  }
 
@@ -149,6 +150,7 @@ g
     padding: 48px;
     display: flex;
     justify-content: space-between;
+    gap: 100px;
  }
 
 
@@ -201,7 +203,84 @@ g
     
     margin: 0 auto;
     margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
  }
+ .current-target-heading{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 97px;
+   margin-bottom: 48px;
+
+ }
+ .current-target h3{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 32px;
+   font-weight: 800;
+ }
+ .current-target p{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 400;
+ }
+ .current-target h4{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 24px;
+   font-weight: 800;
+ }
+ .current-target a{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 700;
+ }
+.current-target-boxes{
+   display: flex;
+   gap: 24px;
+}
+.current-target-box1{
+   width: 364px;
+   height: 299px;
+   border: 1px solid blue;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   border-radius: 16px;
+   background: rgba(255, 76, 30, 0.05);
+   
+}
+.current-target-box2{
+   width: 364px;
+   height: 299px;
+   border: 1px solid blue;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   border-radius: 16px;
+   background: rgba(0, 76, 232, 0.05);
+
+}
+.current-target-box3{
+   width: 364px;
+   height: 299px;
+   border: 1px solid blue;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   border-radius: 16px;
+   background: rgba(255, 223, 0, 0.05);
+
+}
+
 
 /* next-target styles */
  .next-target{
