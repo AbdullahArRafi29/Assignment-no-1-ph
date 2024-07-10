@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* header styles */
+header{
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-image: url(../assets/Hero-bg.png);
+    /* padding: 0 auto; */
+
+    
+}
+.header-section{
+    width: 998px;
+    height: 582px;
+    /* margin: 0 auto; */
+    /* margin: 25px 220px; */
+    margin: 25px auto;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.header-content h2{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.header-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.header-content span{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    
+
+
+
+}
+
+.image-section-container{
+    margin-top: 20px;
+    margin: 25px auto;
+    border: 2px solid red;
+    height: 580px;
+    width: 990px; 
+    
+}
+
+.
+
+/* shared styles */
+/* .text-color{
+    color: #0D1321;
+} */
+.text-new-style{
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+}
+ header h2{
+    font-size: 48px;
+    font-weight: bolder;
+    /* font-family: "Azeret Mono", monospace; */
+    /* color: #0D1321 */
+ }
+ .header-description-container{
+    display: flex;
+    text-align: center;
+    /* flex-direction: column; */
+    
+ }
+
+
+ /* web dev styles */
+ .web-dev-container{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border: 2px solid red;
+    /* padding: 80px 97px; */
+
+ }
+
+ .web-dev-reason1{
+    padding: 48px;
+    display: flex;
+ }
+ .web-dev-reason2{
+    padding: 48px;
+    display: flex;
+ }
+ .web-dev-reason3{
+    padding: 48px;
+    display: flex;
+ }
+
+ /* Inspiration styles */
+ .inspiration{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 2px solid red;
+ }
+
+ /* current-target styles */
+ .current-target{
+    width: 1140px;
+    height: 463px;
+    border: 2px solid red;
+    
+    margin: 0 auto;
+    margin-top: 110px;
+ }
+
+/* next-target styles */
+ .next-target{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 110px;
+    border: 2px solid green;
+ }
+
+ /* footer styles */
+ footer{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid blue;
+ }
