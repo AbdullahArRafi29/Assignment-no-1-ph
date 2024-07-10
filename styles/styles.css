@@ -77,16 +77,9 @@ header{
     
 }
 
-.
+
 
 /* shared styles */
-/* .text-color{
-    color: #0D1321;
-} */
-.text-new-style{
-    font-family: "Azeret Mono", monospace;
-    color: #0D1321;
-}
  header h2{
     font-size: 48px;
     font-weight: bolder;
