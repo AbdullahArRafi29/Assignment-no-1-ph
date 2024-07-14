@@ -294,7 +294,7 @@ g
     margin: 0 auto;
     margin-top: 200px;
     
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(./assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
